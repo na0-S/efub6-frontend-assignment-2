@@ -47,7 +47,7 @@ export default function ProjectDetail({
           fontWeight: 'bold',
         }}
       >
-        {liked ? '❤️ 추천 취소' : '🤍 추천하기'} ({likes})
+        {liked ? '❤️ 좋아요 취소' : '🤍 종아요'} ({likes})
       </button>
     </div>
   );
